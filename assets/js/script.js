@@ -116,7 +116,7 @@ function finalizarCompraWhatsApp() {
   }
 
   // Monta a mensagem
-  let mensagem = "Olá! Gostaria de comprar:\n";
+  let mensagem = "Olá! Segue o meu pedido:\n";
   cart.forEach(item => {
     mensagem += `- ${item.nome} x ${item.quantidade} = R$ ${(item.preco * item.quantidade).toFixed(2)}\n`;
   });
